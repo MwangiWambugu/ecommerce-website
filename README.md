@@ -1,25 +1,14 @@
-# Final Project and Deployment
+# Ecommerce Shoe Store
+
+## Background
+
+Ecommerce is a growing industry and creating solutions for SMEs that are affordable and user friendly to the end user is paramount. This project show cases how to build and deploy a website for an SME shoe store.
 
 ## Objectives
 Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+Apply HTML, CSS, and JavaScript concepts.
+Deploy the project using GitHub Pages.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
-
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
-
-## Tasks
-
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
-
-Good luck and happy coding! 🚀💻
+## Technologies used
+In this project I used HTML, CSS and Javasript todevelop the website and github to deploy.
+Github link: https://mwangiwambugu.github.io/ecommerce-website/
