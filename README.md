@@ -11,4 +11,4 @@ Deploy the project using GitHub Pages.
 
 ## Technologies used
 In this project I used HTML, CSS and Javasript todevelop the website and github to deploy.
-Github link: https://mwangiwambugu.github.io/ecommerce-website/
+Deployment link: https://mwangiwambugu.github.io/ecommerce-website/
