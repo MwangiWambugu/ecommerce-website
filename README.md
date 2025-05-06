@@ -10,5 +10,5 @@ Apply HTML, CSS, and JavaScript concepts.
 Deploy the project using GitHub Pages.
 
 ## Technologies used
-In this project I used HTML, CSS and Javasript todevelop the website and github to deploy.
+In this project I used HTML, CSS and Javasript todevelop the website and github to deploy.<br>
 Deployment link: https://mwangiwambugu.github.io/ecommerce-website/
