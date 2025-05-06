@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="products-page">
+
+        <header>
+            <h1>AI shoes</h1>
+            <nav>
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="products.html" class="dropbtn">Products ▾</a>
+                <div class="dropdown-content">
+                    <a href="..\ecommerce-website\images\pexels-goumbik-292999.jpg" class="category-filter" data-category="mens">Men's Shoes</a>
+                    <a href="..\ecommerce-website\images\pexels-melvin-buezo-1253763-2529148.jpg" class="category-filter" data-category="womens">Women's Shoes</a>
+                    <a href="..\ecommerce-website\images\pexels-kawerodriguess-15844905.jpg" class="category-filter" data-category="kids">Kids' Shoes</a>
+                </div>
+              </div>
+            <a href="cart.html">Cart</a>
+            </nav>
+        </header>
+
+        <main >
+            <section class="product-list" id="men">
+            <article class="product">
+                <h3>Leather shoes</h3>
+                <img src="..\ecommerce-website\images\pexels-goumbik-292999.jpg" alt="Product A" style= "width: 200px; height: 200px;">	
+                <p>Official black leather shoes.</p>
+                <p>ksh. 2500</p>
+                <button onclick="addToCart('Leather shoes', 2500)">Add to Cart</button>
+            </article>
+
+            <article class="product" id="women">
+                <h3>Sport Shoes</h3>
+                <img src="..\ecommerce-website\images\pexels-melvin-buezo-1253763-2529148.jpg" alt="Product B" style="width: 200px; height: 200px;">
+                <p>Comfortable sport shoes for all occasions.</p>
+                <p>Ksh. 3000</p>
+                <button onclick="addToCart('Sport Shoes',3000)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <h3>High Heel Shoes</h3>
+                <img src="..\ecommerce-website\images\pexels-monicore-134064.jpg" alt="Product B" style="width: 200px; height: 200px;">
+                <p>Comfortable High Heel Shoes for all occasions.</p>
+                <p>Ksh. 5000</p>
+                <button onclick="addToCart('High Heel Shoes',5000)">Add to Cart</button>
+
+            </article>    
+
+            <article class="product" id="kids">
+                <h3>Kids Shoes</h3>
+                <img src="..\ecommerce-website\images\pexels-kawerodriguess-15844905.jpg" alt="Product C" style="width: 200px; height: 200px;">
+                <p>Comfortable Kids Shoes.</p>
+                <p>Ksh. 3000</p>
+                <button onclick="addToCart('Kids Shoes',3000)">Add to Cart</button>
+            
+            </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 AI shoes. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

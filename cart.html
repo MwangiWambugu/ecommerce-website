@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>AI shoes</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="products.html" class="dropbtn">Products ▾</a>
+                <div class="dropdown-content">
+                    <a href="..\ecommerce-website\images\pexels-goumbik-292999.jpg" class="category-filter" data-category="mens">Men's Shoes</a>
+                    <a href="..\ecommerce-website\images\pexels-melvin-buezo-1253763-2529148.jpg" class="category-filter" data-category="womens">Women's Shoes</a>
+                    <a href="..\ecommerce-website\images\pexels-kawerodriguess-15844905.jpg" class="category-filter" data-category="kids">Kids' Shoes</a>
+                </div>
+      </div>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main >
+    <div id="cart-container">
+        <h2>Items in your Cart</h2>
+        <ul id="cartItems"></ul>
+        <div id="cart-totals">
+          <p>Total Items: <span id="totalQuantity">0</span></p>
+          <p>Total Amount: <span id="totalAmount">Ksh. 0</span></p>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AI shoes. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
